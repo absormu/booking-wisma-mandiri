@@ -46,6 +46,8 @@ Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
   dp 50%
   status_payment : booking
   deskripsi
+  * perlu ada pengecekan apakah ruangan sudah di booking atau belum 
+  * jika sudah ada maka balikin ruangan sudah di pesan silahkan pilih tanggal lain
 ```
 * List Booking by user : admin/user
 ```
