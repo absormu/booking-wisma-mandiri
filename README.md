@@ -11,6 +11,7 @@ Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
 ```
   id
   nama
+  username
   password
   email
   perusahaan
@@ -49,6 +50,18 @@ Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
   deskripsi
 ```
 * List Booking by user : admin/user
+```
+  no_order
+  periode_booking_start
+  periode_booking_end
+  nama_ruang : join
+  nama_user : join
+  total_qty
+  total_price
+  status_payment 
+  deskripsi
+  *jika level user maka menampilkan data user itu sendiri
+```
 * Payment/Pembayaran : admin
 ```
   id
@@ -61,6 +74,25 @@ Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
 ```
 
 # Fitur Report
-* Report Booking by periode date : admin
-* Report Booking by periode user : admin/user
+* Report Booking by periode date/user : admin/user
+```
+  no_order
+  periode_booking_start
+  periode_booking_end
+  nama_ruang : join
+  nama_user : join
+  total_qty
+  total_price
+  status_payment 
+  deskripsi
+  *jika level user maka menampilkan data user itu sendiri
+```
 * Report User : admin
+```
+  id
+  nama
+  email
+  perusahaan
+  no_hp
+  alamat
+```
