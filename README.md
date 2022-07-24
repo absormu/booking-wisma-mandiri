@@ -17,11 +17,9 @@ Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
   perusahaan
   no_hp
   alamat
+  level : 1 -> admin & 0 -> user
 ```
 
-```
-  Login ada 2 level admin & user
-```
 # Fitur Master
 * Create Ruang : admin
 ```
