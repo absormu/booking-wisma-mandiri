@@ -1,102 +1,28 @@
 # booking-wisma-mandiri
 Aplikasi Sewa Ruang Serbaguna di Wisma Mandiri Jakarta Pusat
 
-# Fitur Akses
-* Login
+# Config
+* Static
 ```
-  username
-  password
+  copas folder tesaapp ke drive C://
+  contoh: C://tesaapp/
 ```
-* Registrasi
+* Database
 ```
-  id
-  nama
-  username
-  password
-  email
-  perusahaan
-  no_hp
-  alamat
-  level : 1 -> admin & 0 -> user
+  import dbwisma_mandiri
 ```
 
-# Fitur Master
-* Create Ruang : admin
+* default
 ```
-  id
-  nama
-  harga
-  luas
-  image
-  deskripsi
+  username : admin
+  password : admin
 ```
 
-# Fitur Booking
-* Create Booking : admin/user
+# App pendukung
 ```
-  id
-  no_order
-  tgl
-  id_ruang
-  id_user
-  periode_booking_start
-  periode_booking_end
-  total_qty
-  total_price
-  dp 50%
-  status_payment : booking
-  deskripsi
-  * perlu ada pengecekan apakah ruangan sudah di booking atau belum 
-  * jika sudah ada maka balikin ruangan sudah di pesan silahkan pilih tanggal lain
+  jdk-8u101-windows-i586
+  netbeans-8.1-windows
+  iReport-5.6.0-plugin
+  xampp-32-bit
+  chrome
 ```
-* List Booking by user : admin/user
-```
-  no_order
-  periode_booking_start
-  periode_booking_end
-  nama_ruang : join
-  nama_user : join
-  total_qty
-  total_price
-  status_payment 
-  deskripsi
-  *jika level user maka menampilkan data user itu sendiri
-```
-* Payment/Pembayaran : admin
-```
-  id
-  tgl
-  no_order
-  id_user_admin
-  total_payment
-  status_payment : paid
-  deskripsi
-```
-
-# Fitur Report
-* Report Booking by periode date/user : admin/user
-```
-  no_order
-  periode_booking_start
-  periode_booking_end
-  nama_ruang : join
-  nama_user : join
-  total_qty
-  total_price
-  status_payment 
-  deskripsi
-  *jika level user maka menampilkan data user itu sendiri
-```
-* Report User : admin
-```
-  id
-  nama
-  email
-  perusahaan
-  no_hp
-  alamat
-```
-
-# Ref
-* https://github.com/mitesh77/Best-Flutter-UI-Templates
-* https://www.downloaderzone.com/free-download-flutter-hotel-and-tour-template-in-flutter-nulled-latest-version/
